@@ -18,3 +18,4 @@ function render(weatherData) {
   minContainer.insertAdjacentHTML('beforeend', markup);
 } 
 
+// to push: (git add .) > (git commit -m "message") 
