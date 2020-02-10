@@ -22,7 +22,6 @@ header > div > h2 {
 #buttonsHeader {
     display: flex;
     justify-content: space-between;
-    margin-right: -60em;
 }
 
 #buttonsHeader > button {

@@ -1,8 +1,14 @@
-const minContainer = document.getElementById('mainContent');
+export default(weatherData) => {
 
-function render(weatherData) {
-  console.log(weatherData)
-  var markup = `<h1>${weatherData.timezone}</h1>`
+const minContainer = document.getElementById('mainContent');
+  var markup = 
+    `
+    <section>
+      <article>${weatherData.timezone}</article>
+      <article>${weatherData.currently.summary}</article>
+      <article></article>
+    </section>
+    `
   minContainer.insertAdjacentHTML('beforeend', markup);
-} 
+}
 
