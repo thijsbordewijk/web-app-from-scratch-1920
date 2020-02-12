@@ -10,6 +10,5 @@ async function app() {
     render(data)
 }
  
-
-
+// to use live preview: npm run watch
 // to push: (git add .) > (git commit -m "message") > (git push)
