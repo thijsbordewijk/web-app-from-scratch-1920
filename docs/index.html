@@ -14,16 +14,21 @@
         <h2>Check your weather forecast anywhere!</h2>
     </div>
     <nav id="buttonsHeader">
-        <button>Current</button>
-        <button>Today</button>
-        <button>This Week</button>
+        <button><a href="">Home</a></button>
+        <button><a href="#currentDetailButton">Current</a></button>
+        <button><a href="#dailyDetailButton">Today</a></button>
+        <button><a href="#weeklyDetailButton">This Week</a></button>
     </nav>
+    <section id="timezoneDisplay"></section>
     <img src=img/sun-cloud.png alt="Weather Forecast" id="logoHeader">    
     </header>
-<main>        
+<main>
     <section id="currentContent"><h1>Current weather</h1></section>
     <section id="dailyContent"><h1>The weather today</h1></section>
     <section id="weeklyContent"><h1>The weather this week</h1></section>
+    <section id="currentDetail"><h1>Current weather</h1></section>
+    <section id="dailyDetail"><h1>The weather today</h1></section>
+    <section id="weeklyDetail"><h1>The weather this week</h1></section>
 </main>
     <script src="../dist/bundle.js"></script>
 </body>

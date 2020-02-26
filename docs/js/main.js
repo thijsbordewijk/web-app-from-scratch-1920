@@ -1,7 +1,8 @@
-import api from "../js/modules/api.js";
-import render from "../js/modules/render.js"
+import api from "../js/modules/api";
+import render from "../js/modules/render";
+import routing from "../js/modules/router";
 
-//onderstaande code zorgt ervoor dat de data pas ingeladen wordt zodra de fetch is afgelopen
+//this code makes sure the data will be render after the fetch has been completed
 
 app()
 async function app() {
@@ -9,6 +10,8 @@ async function app() {
     console.log(data)
     render(data)
 }
- 
+
+routing()
+
 // to use live preview: npm run watch
 // to push: (git add .) > (git commit -m "message") > (git push)

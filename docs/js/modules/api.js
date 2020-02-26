@@ -1,8 +1,13 @@
 //fetch code
 
 export default async() => {
-   
-const url = 'https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/f7728ea8db68a12bfc3c597a2d5cc1bb/37.8267,-122.4233';
+
+const endpoint = 'https://api.darksky.net/forecast/'
+const key = 'f7728ea8db68a12bfc3c597a2d5cc1bb'
+var coords = '52.379189, 4.899431'
+const url = `https://cors-anywhere.herokuapp.com/${endpoint}${key}/${coords}`;
+
+
 
 let data = await fetch(url)
 .then((response) => {
