@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-    <div>
+      <div>
         <h1>Umbrella?</h1>
         <h2>Check your weather forecast anywhere!</h2>
-    </div>
-    <nav id="buttonsHeader">
+      </div>
+      <nav id="buttonsHeader">
         <button><a href="">Home</a></button>
         <button><a href="#currentDetailButton">Current</a></button>
         <button><a href="#dailyDetailButton">Today</a></button>
         <button><a href="#weeklyDetailButton">This Week</a></button>
-    </nav>
-    <section id="timezoneDisplay"></section>
-    <img src=img/sun-cloud.png alt="Weather Forecast" id="logoHeader">    
+      </nav>
+      <img src=img/sun-cloud.png alt="Weather Forecast" id="logoHeader">
     </header>
-<main>
-    <section id="currentContent"><h1>Current weather</h1></section>
-    <section id="dailyContent"><h1>The weather today</h1></section>
-    <section id="weeklyContent"><h1>The weather this week</h1></section>
-    <section id="currentDetail"><h1>Current weather</h1></section>
-    <section id="dailyDetail"><h1>The weather today</h1></section>
-    <section id="weeklyDetail"><h1>The weather this week</h1></section>
-</main>
-    <script src="../dist/bundle.js"></script>
-</body>
+    <main>
+      <h1 id="loadingSection">LOADING</h1>
+      <section id="currentContent"><h1>Current weather</h1></section>
+      <section id="dailyContent"><h1>The weather today</h1></section>
+      <section id="weeklyContent"><h1>The weather this week</h1></section>
+      <section id="currentDetail"><h1>Current weather</h1></section>
+      <section id="dailyDetail"><h1>The weather today</h1></section>
+      <section id="weeklyDetail"><h1>The weather this week</h1></section>
+    </main>
+    <footer>
+      <h2>Timezone:</h2>
+      <p id="timezoneContainer"></p>
+    </footer>
 
+    <script src="../dist/bundle.js"></script>
+    <script src="../docs/js/vendor/transparency.min.js"></script>
+  </body>
 </html>
