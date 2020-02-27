@@ -57,7 +57,7 @@ visibility: 10<br />
 ozone: 416.8<br />
  </p>
  
- <p>This data is available for the next 48 hours, the days after these have a liuttle different data due to it being a little further away and being a little less precise:</p>
+ <p>This data is available for the next 48 hours, the days after these have a little different data due to it being a little further away and being a little less precise:</p>
  
  <p>
 <strong>daily:</strong><br />
