@@ -4,7 +4,7 @@
 
 <p>with this app users can check the weather forecast for the next hour, the day or the week. the data is being gathered from an API which returns data based on coordinates given</p>
 
-<img src="front-end pic1" alt="header webapp: week 2">
+<img src="../../landingspagina.png" alt="De landingspagina">
 
  replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
 
