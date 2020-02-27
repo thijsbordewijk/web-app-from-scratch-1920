@@ -18,9 +18,15 @@
 
 <h2>Actor Diagram</h2>
 
+![Project image](https://github.com/thijsbordewijk/web-app-from-scratch-1920/blob/master/docs/img/actor%20diagram.png)
+> Actor Diagram
+
 <p>The actor diagram display the most important actors and the relations between them</p>
 
 <h2>Interaction Diagram</h2>
+
+![Project image](https://github.com/thijsbordewijk/web-app-from-scratch-1920/blob/master/docs/img/interaction%20diagram.png)
+> Interaction Diagram
 
 <p>The interaction diagram follows the user and shows the path he might take while using the app</p>
 
